@@ -2,7 +2,7 @@
 
 Two AI-powered interactive prototypes built for the NexEra AI Engineering Challenge, demonstrating how AI can transform 3D content creation and avatar-based training for human education.
 
-**Live Demo**: [Add deployed URL here]
+**Live Demo**: [https://nexera-ai-prototypes.vercel.app](https://nexera-ai-prototypes.vercel.app)
 
 ## Prototypes
 
