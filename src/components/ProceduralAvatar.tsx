@@ -442,8 +442,8 @@ const ProceduralAvatar = forwardRef<AvatarHandle>(function ProceduralAvatar(
             <capsuleGeometry args={[0.14, 0.06, 10, 16]} />
           </mesh>
           {/* Shoulder ridge */}
-          <mesh material={mat.shirtD} position={[0, 0.33, 0]} castShadow>
-            <capsuleGeometry args={[0.04, 0.3, 6, 12]} rotation={[0, 0, Math.PI / 2]} />
+          <mesh material={mat.shirtD} position={[0, 0.33, 0]} rotation={[0, 0, Math.PI / 2]} castShadow>
+            <capsuleGeometry args={[0.04, 0.3, 6, 12]} />
           </mesh>
           {/* Collar */}
           <mesh material={mat.shirtD} position={[0, 0.35, 0.02]}>
@@ -507,8 +507,8 @@ const ProceduralAvatar = forwardRef<AvatarHandle>(function ProceduralAvatar(
               <sphereGeometry args={[0.012, 10, 10]} />
             </mesh>
             {/* Mouth */}
-            <mesh material={mat.lip} position={[0, -0.032, 0.1]}>
-              <capsuleGeometry args={[0.004, 0.022, 4, 8]} rotation={[0, 0, Math.PI / 2]} />
+            <mesh material={mat.lip} position={[0, -0.032, 0.1]} rotation={[0, 0, Math.PI / 2]}>
+              <capsuleGeometry args={[0.004, 0.022, 4, 8]} />
             </mesh>
             {/* Ears */}
             <mesh material={mat.skin} position={[-0.115, 0.008, 0]}>
@@ -589,8 +589,8 @@ const ProceduralAvatar = forwardRef<AvatarHandle>(function ProceduralAvatar(
             <capsuleGeometry args={[0.036, 0.22, 8, 12]} />
           </mesh>
           <group ref={jRefs.leftFoot} position={[0, -0.42, 0.02]}>
-            <mesh material={mat.shoe} position={[0, 0, 0.02]} castShadow>
-              <capsuleGeometry args={[0.033, 0.08, 6, 10]} rotation={[Math.PI / 2, 0, 0]} />
+            <mesh material={mat.shoe} position={[0, 0, 0.02]} rotation={[Math.PI / 2, 0, 0]} castShadow>
+              <capsuleGeometry args={[0.033, 0.08, 6, 10]} />
             </mesh>
           </group>
         </group>
@@ -612,8 +612,8 @@ const ProceduralAvatar = forwardRef<AvatarHandle>(function ProceduralAvatar(
             <capsuleGeometry args={[0.036, 0.22, 8, 12]} />
           </mesh>
           <group ref={jRefs.rightFoot} position={[0, -0.42, 0.02]}>
-            <mesh material={mat.shoe} position={[0, 0, 0.02]} castShadow>
-              <capsuleGeometry args={[0.033, 0.08, 6, 10]} rotation={[Math.PI / 2, 0, 0]} />
+            <mesh material={mat.shoe} position={[0, 0, 0.02]} rotation={[Math.PI / 2, 0, 0]} castShadow>
+              <capsuleGeometry args={[0.033, 0.08, 6, 10]} />
             </mesh>
           </group>
         </group>
